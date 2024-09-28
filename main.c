@@ -8,7 +8,7 @@
  *
  *
  *******************************************************************************
- * Copyright 2022-2023, Cypress Semiconductor Corporation (an Infineon company) or
+ * Copyright 2022-2024, Cypress Semiconductor Corporation (an Infineon company) or
  * an affiliate of Cypress Semiconductor Corporation.  All rights reserved.
  *
  * This software, including source code, documentation and related
@@ -47,6 +47,7 @@
 #include "USB_CDC.h"
 #include <stdbool.h>
 #include <string.h>
+#include "USB_HW_Cypress_PSoC6.h"
 
 /*Macros*/
 /* Defines how often a message is printed in milliseconds */
